@@ -1,0 +1,21 @@
+.btn-success:hover{
+    background-color: rgb(255, 0, 0);
+
+}
+
+h3{
+    font-size: 20px !Important;
+    font-family: 'Franklin Gothic Medium';
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 5s;
+    animation-iteration-count:infinite; 
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 85px red}
+    to{box-shadow: 1px 1px 85px rgb(0, 0, 255)}
+}
+    
